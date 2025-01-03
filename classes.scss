@@ -1,0 +1,28 @@
+.primary-btn{
+    background-color: #136DFB;
+    border-radius: 30px;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    &:hover{
+        background-color: #0050CE;
+        transition:background-color .5s ease-in-out;
+    }
+}
+
+.box-shadow{
+    box-shadow: 0 8px 30px 0 #136DFB;
+}
+
+.colorful-text{
+    font-size: 3em;
+    font-weight: bold;
+    // background: linear-gradient( #0096FF 100%, #BB64FF 100%, #F2416B 100%, #EB7500 100%);
+    background: linear-gradient(90deg, #2e87f5, #8a3dc5, #e23479, #fc853a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
