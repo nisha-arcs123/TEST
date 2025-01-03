@@ -10,17 +10,89 @@
 }
 .primary-btn:hover {
   background-color: #0050CE;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color box-shadow 0.5s ease-in-out;
+  box-shadow: none;
+}
+@media screen and (max-width: 740px) {
+  .primary-btn {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .primary-btn {
+    font-size: 12px;
+  }
 }
 
 .box-shadow {
   box-shadow: 0 8px 30px 0 #136DFB;
 }
 
-.colorful-text {
-  font-size: 3em;
-  font-weight: bold;
-  background: linear-gradient(90deg, #2e87f5, #8a3dc5, #e23479, #fc853a);
+.colorful-sm-p {
+  font-size: 24px;
+  font-weight: 600;
+  background: linear-gradient(#FF623F, #BC1AE4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1440px) {
+  .colorful-sm-p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1094px) {
+  .colorful-sm-p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .colorful-sm-p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
+
+.large-text {
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+  line-height: 60px;
+}
+@media screen and (max-width: 1440px) {
+  .large-text {
+    font-size: 38px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 1094px) {
+  .large-text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .large-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.normal-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+}
+@media screen and (max-width: 1094px) {
+  .normal-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .normal-text {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=classes.css.map */
